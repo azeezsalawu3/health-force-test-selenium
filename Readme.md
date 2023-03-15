@@ -28,9 +28,9 @@ Previous Report @ https://reports.cucumber.io/reports/b6f08964-5a82-4cfe-9b53-fc
 Other ways to manage the drive is to implement Driver manager which automatically updated the driver to the latest one compatible with the browser
 
 ---
-###For Defect report and testcase please refer to the folder /docs or see below
+### For Defect report and testcase please refer to the folder /docs or see below
 
-##Test Case
+## Test Case
 
 | TestCase | Steps  | #Expected Result  |
 | ------- | --- | --- |
@@ -39,26 +39,26 @@ Other ways to manage the drive is to implement Driver manager which automaticall
 |  | Click on calculate | |
 
 ---
-#Defect Report
+# Defect Report
 
-###Title:
+### Title:
 Text field color is red when user types a correct value after error display.
 
-###Severity:
+### Severity:
 Low
 
-###Priority:
+### Priority:
 Low
 
-###Steps to Reproduce:
+### Steps to Reproduce:
 - Naviagte to the application url http://localhost:6464/
 - Click on calculate without entering any value in the text field. 
 - The text field should be highlighted in red and is displayed “Please enter an integer”
 - Try entering a valid data like 7 in the Text field
 
-####Expected Result:
+#### Expected Result:
 - Text Field should not the highlighted on red
 
-###Actual Result:
+### Actual Result:
 - Text Field was highlighted in red
 
